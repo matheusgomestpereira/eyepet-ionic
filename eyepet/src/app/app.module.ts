@@ -15,7 +15,7 @@ import {APP_BASE_HREF} from '@angular/common';
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
-    {provide: APP_BASE_HREF, useValue: '/eyepet-ionic/eyepet/www/'},
+    //{provide: APP_BASE_HREF, useValue: '/eyepet-ionic/eyepet/www/'},
     StatusBar,
     SplashScreen,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
