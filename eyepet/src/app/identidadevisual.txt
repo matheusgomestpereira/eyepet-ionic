@@ -1,0 +1,7 @@
+verde = #40E2AB;
+laranja = #FFAB57;
+laranja-claro = #FFD35B;
+bordas-azul = #85B3F1;
+vermelho = #FF6D6D;
+verde-claro = #BCDE96;
+

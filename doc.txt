@@ -1,0 +1,16 @@
+na pasta C:\Users\mathe\Desktop\dev\projetos\eyepet-ionic\eyepet
+
+npm start - inicializa o projeto
+npm run build - compila o projeto
+
+------------------------
+utilizar a branch gh-pages
+
+C:\Users\mathe\Desktop\dev\projetos\eyepet-ionic\eyepet
+http://localhost:8200/
+https://magomeskr.github.io/eyepet-ionic/eyepet/www/
+
+
+git add .
+git commit -m "ajustes matheus" 
+git push origin gh-pages

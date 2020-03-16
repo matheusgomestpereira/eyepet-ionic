@@ -12,6 +12,46 @@
       <ion-title size="large">Tab 3</ion-title>
     </ion-toolbar>
   </ion-header>
+  <!-- Fixed Floating Action Button that does not scroll with the content -->
+  <ion-fab>
+    <ion-fab-button>Button</ion-fab-button>
+  </ion-fab>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-list>
+    <ion-item>
+      <ion-label>Input</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Toggle</ion-label>
+      <ion-toggle slot="end"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Radio</ion-label>
+      <ion-radio slot="end"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Checkbox</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-fab vertical="top" horizontal="start">
+    <ion-fab-button>Share</ion-fab-button>
+  
+    <ion-fab-list side="bottom">
+      <ion-button>
+        <ion-icon slot="start" name="star"></ion-icon>
+        Left Icon
+      </ion-button>
+    </ion-fab-list>
+
+
+  
+    <ion-fab-list side="start">
+      <ion-fab-button>Vimeo</ion-fab-button>
+    </ion-fab-list>
+  
+  </ion-fab>
 </ion-content>
