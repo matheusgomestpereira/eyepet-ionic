@@ -6,11 +6,17 @@ npm run build - compila o projeto
 ------------------------
 utilizar a branch gh-pages
 
-C:\Users\mathe\Desktop\dev\projetos\eyepet-ionic\eyepet
-http://localhost:8200/
-https://magomeskr.github.io/eyepet-ionic/eyepet/www/
+C:\Users\mathe\Desktop\dev\projetos\eyepet-ionic\eyepet - mostra local
+http://localhost:8100/
+https://magomeskr.github.io/eyepet-ionic/eyepet/www/ - mostrar no navegador
 
 
 git add .
 git commit -m "ajustes matheus" 
 git push origin gh-pages
+
+------------------------- 
+API - Google Cloud Platform (Tutorial)
+
+http://mateusduraes.github.io/Ionic-4-com-googlemaps/
+https://console.cloud.google.com/apis/credentials/key/83132dd9-b7ad-4d70-82e0-5bf15ebb1336?project=resolute-land-271313
