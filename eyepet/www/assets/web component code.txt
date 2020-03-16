@@ -1,0 +1,25 @@
+--------------
+ICONES
+--------------
+
+PULSO - <ion-icon name="pulse-outline"></ion-icon>
+PULSO - <ion-icon name="pulse"></ion-icon>
+SETTINGS- <ion-icon name="settings-outline"></ion-icon>
+CAMERA - <ion-icon name="camera"></ion-icon>
+LOCATION - <ion-icon name="location"></ion-icon>
+LOCATION - <ion-icon name="location-outline"></ion-icon>
+
+--------------
+FRAMEWORKS
+--------------
+
+logo-pwa - <ion-icon name="logo-pwa"></ion-icon>
+logo-javascript - <ion-icon name="logo-javascript"></ion-icon>
+logo-android - <ion-icon name="logo-android"></ion-icon>
+logo-angular - <ion-icon name="logo-angular"></ion-icon>
+logo-apple - <ion-icon name="logo-apple"></ion-icon>
+logo-github - <ion-icon name="logo-github"></ion-icon>
+
+
+
+

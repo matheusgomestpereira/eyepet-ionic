@@ -1,0 +1,17 @@
+<svg id="icone-ultrassonico" xmlns="http://www.w3.org/2000/svg" width="80" height="42.158" viewBox="0 0 80 42.158">
+  <g id="sensores">
+    <path id="smile" d="M375,69.111s2.118,4.587,0,6.493-8.731-2.6-10.334,0,3.462,7.424,5.581,8.66,6.543,1.347,9.365,0,5.773-8.66,5.773-8.66" transform="translate(-336 -43.574)" fill="none" stroke="#484b4d" stroke-width="1"/>
+    <g id="shape"   stroke-width="1">
+      <rect width="80" height="28" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="27" rx="4.5" fill="none"/>
+    </g>
+  </g>
+  <g id="Elipse_1" data-name="Elipse 1" transform="translate(10 4)" fill="#40e2ab"  stroke-width="1">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9.5" fill="none"/>
+  </g>
+  <g id="Elipse_2" data-name="Elipse 2" transform="translate(50 4)" fill="#40e2ab"  stroke-width="1">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9.5" fill="none"/>
+  </g>
+</svg>

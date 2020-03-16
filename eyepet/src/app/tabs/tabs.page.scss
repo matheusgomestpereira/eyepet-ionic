@@ -1,1 +1,16 @@
 
+
+
+ion-tab-button {
+    background-color: #40E2AB!important;
+    color: #484B4D;
+}
+
+
+ion-tab-button.tab-selected {
+    color: white;
+}
+
+ion-tab-button.tab-selected svg {
+    fill: white!important;
+}

@@ -24,3 +24,63 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.logo img {
+    margin: 5px;
+    margin-top: 20px;
+    width: 50px;
+}
+
+.logo {
+    background-color: #40E2AB;
+}
+
+.card-atividades .titulo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-atividades .item-inner  {
+    border: none!important;
+}
+
+.card-atividades .col-text {
+    font-size: 14px;
+}
+
+.card-atividades  .coracao {
+    color: #FF6D6D;
+}
+
+
+.card-atividades  .bpm {
+    font-size: 12px;
+}
+
+.card-atividades  .frequencia {
+    font-size: 38px !important;
+}
+
+.card-atividades .card-icone {
+    margin-right: 0px!important;
+}
+
+.content-body  {
+    background-color: #F2F2F2!important;
+}
+
+.subtitulo {
+  font-size: 14px;
+  margin: 20px;
+}
+
+ion-content {
+    --ion-background-color: #F2F2F2;
+}
+
+.btn-salvar {
+    margin: 20px 5%;
+    width: 90%;
+    --background:  #BCDE96;
+}

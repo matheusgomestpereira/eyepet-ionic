@@ -1,32 +1,50 @@
-<ion-header [translucent]="true">
-  <ion-toolbar >
-    <ion-title>
-      Tab 60
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" class="content-body">
+  <ion-grid class="logo">
+    <ion-row>
+      <ion-col>
+        <img src="assets/logotipo.svg" alt="Logotipo do EyePet">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense" >
-    <ion-toolbar  class="teste">
-      <ion-title size="large">
-        <a href="#">
-          <img src="assets/logotipo.svg" alt="Logotipo do EyePet">
-        </a>
-      </ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <img src="assets/grafico-exe.png" width="80%" style="margin-left: 10%;margin-top: 20%;"/>
 
-  <ion-card>
-    <ion-card-header>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-      <ion-card-title>Card Title</ion-card-title>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Keep close to Nature's heart... and break clear away, once in awhile,
-      and climb a mountain or spend a week in the woods. Wash your spirit clean.
-    </ion-card-content>
+  <span class="subtitulo">Histórico</span>
+
+  <ion-card class="card-atividades">
+    <ion-item lines="none">
+      <ion-icon name="pulse" slot="start" class="card-icone"></ion-icon>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-row>
+              <ion-col class="titulo">
+                Passeio
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col class="col-text ">
+                10/03/2020 19:06
+              </ion-col>
+            </ion-row>
+          </ion-col>
+          <ion-col>
+            <ion-row>
+              <ion-col size="8" class="frequencia">
+                087
+              </ion-col>
+              <ion-col>
+                <ion-icon name="heart" class="coracao"></ion-icon> <br />
+                <span class="bpm">BPM</span>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+    </ion-item>
+
   </ion-card>
-  
+
+
 </ion-content>

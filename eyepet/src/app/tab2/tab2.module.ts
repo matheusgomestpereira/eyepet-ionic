@@ -16,4 +16,8 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
   ],
   declarations: [Tab2Page]
 })
-export class Tab2PageModule {}
+export class Tab2PageModule {
+
+
+
+}
