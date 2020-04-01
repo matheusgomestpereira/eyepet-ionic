@@ -67,7 +67,7 @@
 }
 
 .content-body  {
-    background-color: #F2F2F2!important;
+    background: none!important;
 }
 
 .subtitulo {
@@ -76,14 +76,15 @@
 }
 
 ion-content {
-    --ion-background-color: #F2F2F2;
+    --background: #ffffff url('assets/bg-eyepet.svg') no-repeat center center / cover !important;
 }
 
 .btn-salvar {
 
     margin: 20px 5%;
     width: 90%;
-    --background:  #FFAB57;
+    color: white;
+    --background:  #4b61e8;
+    
 }
-
 
