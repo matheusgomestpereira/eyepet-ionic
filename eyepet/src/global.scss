@@ -25,11 +25,15 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+.container{
+    margin: 0em;
+    padding: 0em;
+}
 
 .logo img {
-    margin: 5px;
-    width: 48px;
-    padding-bottom: 20px;
+    margin: 0.3125em;
+    width: 3em;
+    padding-bottom: 1.25em;
 }
 
 .logo {
@@ -38,7 +42,7 @@
 
 
 .card-atividades .titulo {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
 }
 
@@ -47,7 +51,7 @@
 }
 
 .card-atividades .col-text {
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 .card-atividades  .coracao {
@@ -56,15 +60,15 @@
 
 
 .card-atividades  .bpm {
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .card-atividades  .frequencia {
-    font-size: 38px !important;
+    font-size: 2.375em!important;
 }
 
 .card-atividades .card-icone {
-    margin-right: 0px!important;
+    margin-right: 0em!important;
 }
 
 .content-body  {
@@ -72,8 +76,8 @@
 }
 
 .subtitulo {
-  font-size: 14px;
-  margin: 20px;
+  font-size: 0.875em;
+  margin: 1.25em;
 }
 
 ion-content {
@@ -82,7 +86,7 @@ ion-content {
 
 .btn-salvar {
 
-    margin: 20px 5%;
+    margin: 1.25em 5%;
     width: 90%;
     color: white;
     --background:  #4b61e8;
@@ -91,17 +95,66 @@ ion-content {
 
 .icons-dimensions {
 
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
 }
 
+.display {
+    padding: 2em 0em;
+}
 .ajuste{
-
-    padding: 0.7em 0!important;
-
+    height: fit-content;
+    padding: 0.5em 0em;
+    position: relative;
 }
 
 p {
     padding: 0px;
     margin: 0;
 }
+
+.circle {
+    width: 60%;
+    height: 50%;
+    border-radius: 5%;
+    margin: 2em 5em;
+}
+
+.glass-wrapper {
+    font-family:Arial;
+    width: 96.5%;
+    min-height: 7%;
+    margin: 0 auto;
+    padding: 0em 2em;
+    box-sizing: border-box;
+    color: #020202;
+    border-radius: 0.5em;
+    position: relative;
+  }
+  .content {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 2em;
+    padding: 0.625em 0.16em;
+  }
+   
+  .glass {
+    width: 160%;
+    height: 0;
+    opacity: .1;
+    background: #fff;
+     position: absolute;
+    top: -114px;
+    left: -200px;
+    z-index: 9;
+    border-radius: 50%;
+  }
+
+  .visor {
+    height: fit-content;
+    padding: 0.5em 0em;
+    position: relative;
+
+  }
+  

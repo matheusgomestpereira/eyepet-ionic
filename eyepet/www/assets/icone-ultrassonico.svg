@@ -6,11 +6,11 @@
       <rect x="0.5" y="0.5" width="79" height="27" rx="4.5" fill="none"/>
     </g>
   </g>
-  <g id="Elipse_1" data-name="Elipse 1" transform="translate(10 4)" fill="#40e2ab"  stroke-width="1">
+  <g id="Elipse_1" data-name="Elipse 1" transform="translate(10 4)" fill="#21a762"  stroke-width="1">
     <circle cx="10" cy="10" r="10" stroke="none"/>
     <circle cx="10" cy="10" r="9.5" fill="none"/>
   </g>
-  <g id="Elipse_2" data-name="Elipse 2" transform="translate(50 4)" fill="#40e2ab"  stroke-width="1">
+  <g id="Elipse_2" data-name="Elipse 2" transform="translate(50 4)" fill="#21a762"  stroke-width="1">
     <circle cx="10" cy="10" r="10" stroke="none"/>
     <circle cx="10" cy="10" r="9.5" fill="none"/>
   </g>
