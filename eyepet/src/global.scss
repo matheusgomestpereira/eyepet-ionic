@@ -89,7 +89,7 @@ ion-content {
     margin: 1.25em 5%;
     width: 90%;
     color: white;
-    --background:  #4b61e8;
+    justify-content: center;
     
 }
 
@@ -120,35 +120,12 @@ p {
     margin: 2em 5em;
 }
 
-.glass-wrapper {
-    font-family:Arial;
-    width: 96.5%;
-    min-height: 7%;
-    margin: 0 auto;
-    padding: 0em 2em;
-    box-sizing: border-box;
-    color: #020202;
-    border-radius: 0.5em;
-    position: relative;
-  }
   .content {
     width: 100%;
     box-sizing: border-box;
     text-align: center;
     font-size: 2em;
     padding: 0.625em 0.16em;
-  }
-   
-  .glass {
-    width: 160%;
-    height: 0;
-    opacity: .1;
-    background: #fff;
-     position: absolute;
-    top: -114px;
-    left: -200px;
-    z-index: 9;
-    border-radius: 50%;
   }
 
   .visor {
@@ -157,4 +134,37 @@ p {
     position: relative;
 
   }
+  
+.btn-datetime {
+    width: 50%;
+    justify-content: space-around!important;
+    color: #21a762;
+  }
+  
+  .choose-data {
+    padding-top: 5%;
+  }
+  .pet-status {
+    margin: 2em auto!important;
+    justify-content: space-around;
+  }
+  .range-status {
+    justify-content: space-around;
+  }
+
+.divider::after {
+    content: "";
+    width: 3em;
+    height: 0.125em;
+    background: #21a762;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+}
+.posicao-centro {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+  
   

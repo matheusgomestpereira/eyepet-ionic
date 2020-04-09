@@ -6,69 +6,109 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-
-<ion-col>
-  <ion-item>
-    <ion-label position="floating">Nome do seu Pet</ion-label>
-    <ion-input></ion-input>
-  </ion-item>
-  </ion-col>
-<ion-col>
-  <ion-item>
-    <ion-label>Pet</ion-label>
-    <ion-select placeholder="Qual seu pet?">
-      <ion-select-option value="f">Cachorro</ion-select-option>
-      <ion-select-option value="m">Gato</ion-select-option>
-    </ion-select>
-  </ion-item>
-  </ion-col>
-  <ion-col>
-    <ion-item>
-      <ion-label position="floating">Contato de Emergência</ion-label>
-      <ion-input></ion-input>
-    </ion-item>
-  </ion-col>
+  
   <ion-list>
+    <ion-col>
+
+      <ion-item lines="none">  
+
+        <ion-label  position="floating">
+          <p class="divider">
+            Nome do seu Pet
+          </p>
+        </ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+    </ion-col>
+    
+    <ion-col>
+
+      <ion-item lines="none">
+
+        <ion-label position="floating">
+          <p class="divider">
+            Contato de Emergência
+          </p>
+        </ion-label>
+        <ion-input></ion-input>
+
+      </ion-item>
+
+    </ion-col>
+    <ion-col>
+      <ion-item lines="none">
+        <ion-select class="posicao-centro" placeholder="Qual seu pet?">
+          
+          <ion-select-option value="f">
+            <p>
+              Cachorro
+            </p>
+          </ion-select-option>
+          <ion-select-option value="m">
+            <p>
+              Gato
+            </p>
+          </ion-select-option>
+          
+        </ion-select>
+      </ion-item>
+
+      
+    </ion-col>
 
     <ion-row class="choose-data">
 
       <ion-item class="btn-datetime" lines="none">
-        <ion-label>00h00</ion-label>
+
         <ion-icon name="today-outline" slot="end"></ion-icon>
-        <ion-datetime displayFormat="h:mm A" minuteValues="0,15,30,45"></ion-datetime>
+        <ion-datetime displayFormat="h:mm A" placeholder="00h00" minuteValues="0,15,30,45"></ion-datetime>
+
       </ion-item>
       <ion-item class="btn-datetime" lines="none">
-        <ion-label>00h00</ion-label>
+
         <ion-icon name="today-outline" slot="end"></ion-icon>
-        <ion-datetime displayFormat="h:mm A" minuteValues="0,15,30,45"></ion-datetime>
+        <ion-datetime displayFormat="h:mm A" placeholder="00h00" minuteValues="0,15,30,45"></ion-datetime>
+
       </ion-item>
+
     </ion-row>
     
-    <ion-item lines="none">Distância Sensor-Objeto
+    <ion-item lines="none">
+      <p>Distância Sensor-Objeto</p>
+
       <ion-label position="floating"></ion-label>
       <ion-range lines="none" class="range-status" color="success" pin="true"></ion-range>
+
     </ion-item>
     
-    <ion-item lines="none">Volume do som
+    <ion-item lines="none">
+      <p>Volume do som</p>
+
       <ion-label position="floating"></ion-label>
       <ion-range class="range-status" color="success" pin="true"></ion-range>
+
     </ion-item>
-  </ion-list>
 
-  <ion-row class="pet-status">
-      <ion-item lines="none">
-        <ion-icon name="paw-outline"></ion-icon>
-        <ion-toggle></ion-toggle>
-      </ion-item>
-      <ion-item lines="none">
-        <ion-icon name="paw-outline"></ion-icon>
-        <ion-toggle></ion-toggle>
-      </ion-item>
-      <ion-item lines="none">
-        <ion-icon name="paw-outline"></ion-icon>
-        <ion-toggle></ion-toggle>
-      </ion-item>
-    </ion-row>
+        <ion-row class="pet-status">
 
-    <ion-button class="btn-salvar" type="round" className="ion-activatable ripple-parent">Salvar</ion-button>
+            <ion-item lines="none">
+
+              <ion-icon name="paw-outline"></ion-icon>
+              <ion-toggle></ion-toggle>
+            </ion-item>
+
+            <ion-item lines="none">
+
+              <ion-icon name="paw-outline"></ion-icon>
+              <ion-toggle></ion-toggle>
+
+            </ion-item>
+
+          </ion-row>
+
+          <ion-button class="btn-salvar" type="round" className="ion-activatable ripple-parent">Salvar</ion-button>
+
+    </ion-list>
+
 </ion-content>
