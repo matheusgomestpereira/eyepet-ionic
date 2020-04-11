@@ -1,58 +1,42 @@
 <ion-content [fullscreen]="true" class="content-body">
   <ion-grid class="logo">
-    <ion-row>
-      <ion-col>
-        <img src="assets/logotipo.svg" alt="Logotipo do EyePet">
-      </ion-col>
-    </ion-row>
+          <img src="assets/logotipo.svg" alt="Logotipo do EyePet">
   </ion-grid>
 
   <!-- visor freq.cardiaca -->
 
   <!-- menu superior do visor -->
+  <ion-row class="page-name">
+    <ion-col>
+      Frequência Cardíaca
+    </ion-col>
+  </ion-row>
   <ion-grid class="content">
-    <ion-card class="glass-wrapper">
+    <ion-card>
 
       <ion-item lines="none">
-        <ion-icon color="danger" name="pulse" slot="start" class="card-icone"></ion-icon>
+        <ion-icon color="danger" name="pulse" slot="start" class="card-icone pulse-blink"></ion-icon>
 
-        <ion-grid class="ajuste">
+        <ion-grid>
+
           <ion-row>
-
-            <ion-col class="ion-text-center">
-              <ion-icon class="icons-dimensions" name="create-outline"></ion-icon>
-            </ion-col>
-
-            <ion-col class="ion-text-center ">
-              <ion-icon name="camera-outline" class="icons-dimensions"></ion-icon>
-            </ion-col>
-
-          </ion-row>
-
-          <ion-row class="display">
-              <ion-col class="ion-text-center">
-                <p>074</p>
-              </ion-col>
-
-              <ion-col class="ion-text-center">
-                <ion-icon name="heart" color="danger"></ion-icon>
-                <span class="bpm"> BPM </span>
-              </ion-col>
-        </ion-row>
-
-          <ion-row class="ion-text-center">
             <ion-col>
-                  <ion-icon class="icons-dimensions ion-no-padding" name="share-social-outline"></ion-icon>
+              <h2>074</h2>
             </ion-col>
-
+            
             <ion-col>
-              <ion-icon class="icons-dimensions ion-no-padding" name="person-circle-outline"></ion-icon>
+              <ion-icon name="heart" color="danger"></ion-icon>
+              BPM 
             </ion-col>
           </ion-row>
+          
         </ion-grid>
-
+        
       </ion-item>
-
+      
+      <ion-row>
+        <ion-button class="btn-medir" expand="full">medir</ion-button>
+      </ion-row>  
     </ion-card>
   </ion-grid>
 
