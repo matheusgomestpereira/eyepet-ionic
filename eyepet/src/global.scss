@@ -25,7 +25,9 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-
+/* font-family: 'Oxygen', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*/
 ion-tab-button {
     background-color: #21a762!important;
     color: #484B4D;
@@ -82,7 +84,6 @@ ion-content {
 .card-atividades .item-inner  {
     border: none!important;
 }
-
 .card-atividades .col-text {
     color: #484B4D;
     font-size: 0.875em;
@@ -143,7 +144,7 @@ p {
 }
 .page-name{
     text-align: center;
-    background: blue;
+    background: #007037;
     color: white;
 }
 .visor {
@@ -162,9 +163,11 @@ p {
     padding-top: 5%;
   }
   .pet-status {
-    margin: 2em auto!important;
-    justify-content: space-around;
-  }
+    width: 90%;
+    padding: 0.5em 0em 0.5em 0em;
+    margin-left: auto;    
+    margin-right: auto;    
+}
   .range-status {
     justify-content: space-around;
   }
@@ -217,10 +220,34 @@ h2 {
     50% { opacity: 0.5; }
     100% { opacity: 0; }
 }
+
 .pulse-blink {
   -webkit-animation: pulse-blink 1s linear infinite;
   -moz-animation: pulse-blink 1s linear infinite;
   -ms-animation: pulse-blink 1s linear infinite;
   -o-animation: pulse-blink 1s linear infinite;
   animation: pulse-blink 1s linear infinite;
+  margin: 1em 0em;
+}
+
+.visor-padding {
+    padding: 2em 0em 2em 0em;
+    margin: auto;
+}
+
+.f-48 {
+    font-size: 3em;
+    color: #484B4D;
+}
+
+.ajuste {
+    padding-top: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.paw-outline {
+    margin-left: 1em;
 }
